@@ -1,0 +1,18 @@
+#word, #guess {
+    border: 1px solid black;
+    padding: 3em;
+    flex: 1;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+}
+#word {
+    text-align: center;
+    letter-spacing: 5px; /* Laitetaan väliä kirjainten välille, jotta alaviivat erottuvat toisistaan */
+}
+h1 {
+    text-align: center;
+}
